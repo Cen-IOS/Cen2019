@@ -139,9 +139,9 @@ def pprint(config):
     for instance in config["Discord"]:
         instance_info = []
         options = (
-            ("Include Reply To User", instance.get("IncludeReplyToUser", False)),
-            ("Include User Reply", instance.get("IncludeUserReply", False)),
-            ("Include Retweet", instance.get("IncludeRetweet", False)),
+            ("Include Reply To User", instance.get("IncludeReplyToUser", True)),
+            ("Include User Reply", instance.get("IncludeUserReply", True)),
+            ("Include Retweet", instance.get("IncludeRetweet", True)),
             ("Custom Message", True if instance.get("custom_message", "") is not "" else False),
             ("Keyword Sets", True if instance.get("keyword_sets", "") is not "" else False),
             ("Blackword Sets", True if instance.get("blackword_sets", "") is not "" else False),
