@@ -285,6 +285,8 @@ class Processor:
         self.embed.set_footer(
             text="Được Xây Dựng Bởi Gotcha Mod ㋛....⌛",
             icon_url="https://cdn.discordapp.com/attachments/367295988546666509/623545198538129408/c40c726b124c964055f7798279ba74e5.png",
+        )
+        self.embed.set_thumbnail(
             thumbnail="https://cdn.discordapp.com/attachments/367295988546666509/531445440697073664/Sun_11.gif",
         )
 
