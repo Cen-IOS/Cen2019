@@ -117,21 +117,8 @@ def pprint(config):
         location.extend(x for x in element.get("location", []))
         webhook_urls.extend(x for x in element.get("webhook_urls", []))
 
-    INFO = [
-        "        _   _ _   _ _____ _                 ____ _____ ____",
-        "       | \ | | \ | |_   _(_)_ __           |  _ \_   _| __ )",
-        "       |  \| |  \| | | | | | '_ \   _____  | | | || | |  _ \\",
-        "       | |\  | |\  | | | | | | | | |_____| | |_| || | | |_) |",
-        "       |_| \_|_| \_| |_| |_|_| |_|         |____/ |_| |____/",
-        "",
-        "Discord-Twitter-Bot has a detailed documentation, found here:",
-        "https://nntin.github.io/discord-twitter-bot",
-        "",
-        "Twitter Users: {}".format(len(follow)),
-        "Tracked Words: {}".format(len(track)),
-        "Location Boxes: {}".format(int(len(location) / 4)),
-        "Webhook URLs: {}".format(len(webhook_urls)),
-        "Defined Feeds: {}".format(len(config["Discord"])),
+    INFO = [ Cendz From  Gotcha Mod,
+            hello work :))
     ]
     print(bordered(INFO, ascii_border=ascii_border))
 
