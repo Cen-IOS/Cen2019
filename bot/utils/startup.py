@@ -117,8 +117,7 @@ def pprint(config):
         location.extend(x for x in element.get("location", []))
         webhook_urls.extend(x for x in element.get("webhook_urls", []))
 
-    INFO = [ Cendz From  Gotcha Mod,
-            hello work :))
+    INFO = [ Cendz From Gotcha Mod,
     ]
     print(bordered(INFO, ascii_border=ascii_border))
 
